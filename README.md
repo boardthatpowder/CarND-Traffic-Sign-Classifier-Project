@@ -169,6 +169,9 @@ The model was able to correctly guess just 3 of the 11 traffic signs, which give
 
 
 **Priority road**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Right-of-way at the next intersection | 21.1%
@@ -178,6 +181,9 @@ Children crossing | 5.8%
 Dangerous curve to the left | 1.4%
 
 **Yield**
+
+The model predicted correctly with the highest accuracy.
+
 Prediction | Probablity
 ---|---
 Yield | 18.9%
@@ -187,6 +193,9 @@ No entry | 2.3%
 Ahead only | -1.6%
 
 **Stop**
+
+The model failed to predict correctly, but the correct prediction was 2nd.
+
 Prediction | Probablity
 ---|---
 Speed limit (30km/h) | 15.7%
@@ -196,6 +205,9 @@ Turn left ahead | 6.9%
 Speed limit (20km/h) | 1.6%
 
 **Speed limit (30km/h)**
+
+The model predicted correctly, but not with a high accuracy.
+
 Prediction | Probablity
 ---|---
 Speed limit (30km/h) | 5.3%
@@ -205,6 +217,9 @@ Roundabout mandatory | -0.3%
 Stop | -0.9%
 
 **Bumpy road**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Slippery road | 13.1%
@@ -214,6 +229,9 @@ Children crossing | 0.2%
 Bicycles crossing | -0.1%
 
 **Slippery road**
+
+The model predicted correctly, but not with a high accuracy.
+
 Prediction | Probablity
 ---|---
 Slippery road | 12.2%
@@ -223,6 +241,9 @@ Wild animals crossing | -1.7%
 Speed limit (50km/h) | -3.1%
 
 **Road work**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Bicycles crossing | 12.7%
@@ -232,6 +253,9 @@ Road narrows on the right | 3.7%
 Beware of ice/snow | 1.5%
 
 **Road work**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Bicycles crossing | 14.2%
@@ -241,6 +265,9 @@ Beware of ice/snow | 6.0%
 Bumpy road | 4.5%
 
 **Traffic signals**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Right-of-way at the next intersection | 6.3%
@@ -250,6 +277,9 @@ Roundabout mandatory | -1.4%
 General caution | -2.4%
 
 **Pedestrians**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Speed limit (100km/h) | 5.3%
@@ -259,6 +289,9 @@ Speed limit (50km/h) | -0.6%
 Right-of-way at the next intersection | -1.0%
 
 **Bicycles crossing**
+
+The model failed to predict correctly.
+
 Prediction | Probablity
 ---|---
 Right-of-way at the next intersection | 6.9%
