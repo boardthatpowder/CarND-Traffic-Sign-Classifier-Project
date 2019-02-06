@@ -82,14 +82,14 @@ My final model is a slight variation of a standard LeNet architecture consisting
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x1 Y image   							| 
-| Convolution 5x5     	| 1x1 stride, same padding, outputs 28x28x6 	|
+| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 28x28x6 	|
 | Batch Normalization | |
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 14x14x6 				|
-| Convolution 5x5     	| 1x1 stride, same padding, outputs 10x10x16 	|
+| Max pooling	      	| 2x2 stride, VALID padding, outputs 14x14x6 				|
+| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 10x10x16 	|
 | Batch Normalization | |
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
+| Max pooling	      	| 2x2 stride, VALID padding, outputs 5x5x16 				|
 | Flatten | Outputs 400 |
 | Fully connected		| Outputs 120 |
 | RELU					|												|
