@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [explore]: ./writeup/explore.png "Explore"
 [preprocessed]: ./writeup/preprocessed.png "Preprocessed"
 [new]: ./writeup/new.png "New"
-[new-preprocessed]: ./writeup/new-preprocessed.png "New Preprocessed"
+[new_processed]: ./writeup/new-processed.png "New Preprocessed"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -139,7 +139,7 @@ Here are 11 German traffic signs that I found on the web:
 
 These are the results of the images after pre-processing:
 
-![new-preprocessed][new-preprocessed]
+![new_processed][new_processed]
 
 
 Most of my images would be difficult to classify when compared to the MNIST dataset due to differences in aspect ratio which would warp the imges when pre-processed to a 32x32 input image.  In addition, the images are much lighter than the MNIST images.
