@@ -139,7 +139,7 @@ Here are 11 German traffic signs that I found on the web:
 
 These are the results of the images after pre-processing:
 
-![new-processed][new-processed]
+![new-preprocessed][new-preprocessed]
 
 
 Most of my images would be difficult to classify when compared to the MNIST dataset due to differences in aspect ratio which would warp the imges when pre-processed to a 32x32 input image.  In addition, the images are much lighter than the MNIST images.
